@@ -206,7 +206,7 @@ table.insert(cors,sandbox(LocalScript3,function()
 	local onKeyDown=function(key,mouse) 
 		local key=key:lower() 
 		local yesh=false 
-		if (key=="q") then 
+		if (key=="g") then 
 			if (dist>=5) then 
 				dist=dist-5 
 			end 
@@ -264,10 +264,10 @@ table.insert(cors,sandbox(LocalScript3,function()
 				dist=5000 
 			end 
 		end
-		if (key=="e") then
+		if (key=="t") then
 			dist=dist+5
 		end
-		if (key=="x") then 
+		if (key=="h") then 
 			if dist ~= 15 then 
 				dist=15 
 			end 
